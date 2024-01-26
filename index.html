@@ -1,0 +1,102 @@
+<!--Open any folder in vs code: file -> open folder -> select required folder
+    <br> tag : for line break, it does not have a closing tag 
+    Attributes can be write in uppercase as well as in lowercase
+    Attribute's value doesn't specifically require quotation symbols, but it is good to do so
+
+ -->
+
+<!DOCTYPE html>   <!-- use'!' symbol in vs code to get basic structure of html -->
+<html lang="en">   <!-- Lang: to declare language of webpage-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus Music- believe in youself</title>
+    <link rel="stylesheet" href="style.css"> <!--The href attribute specifies the URL of the page the link goes to-->
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><IMG SRC="LOGO.JPG" alt="focus music"></li> <!--made img to capital letters to sink with file title , otherwise img was not showing-->
+            <li>Home</li>         <!-- src: source file ; alt: alternative text for img-->
+            <li>About</li>
+        </ul>
+       
+    </nav>
+    <div class="container">
+        <div class="songList">
+            <h2 align="center">Calming sounds...</h2>
+        <div class="songItemcontainer">
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName">Gentle Ocean Waves</span>
+                <span class="songlistPlay"><span class="timestamp">1:55 <i class="fa-regular songItemPlay fa-2x fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName">Gentle Ocean Waves</span>
+                <span class="songlistPlay"><span class="timestamp">1:55 <i class="fa-regular songItemPlay fa-2x fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName">Gentle Ocean Waves</span>
+                <span class="songlistPlay"><span class="timestamp">1:55 <i class="fa-regular songItemPlay fa-2x fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName">Gentle Ocean Waves</span>
+                <span class="songlistPlay"><span class="timestamp">1:55 <i class="fa-regular songItemPlay fa-2x fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName">Gentle Ocean Waves</span>
+                <span class="songlistPlay"><span class="timestamp">1:55 <i class="fa-regular songItemPlay fa-2x fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName">Gentle Ocean Waves</span>
+                <span class="songlistPlay"><span class="timestamp">1:55 <i class="fa-regular songItemPlay fa-2x fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName">Gentle Ocean Waves</span>
+                <span class="songlistPlay"><span class="timestamp">1:55 <i class="fa-regular songItemPlay fa-2x fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName">Gentle Ocean Waves</span>
+                <span class="songlistPlay"><span class="timestamp">1:55 <i class="fa-regular songItemPlay fa-2x fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName">Gentle Ocean Waves</span>
+                <span class="songlistPlay"><span class="timestamp">1:55 <i class="fa-regular songItemPlay fa-2x fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName">Gentle Ocean Waves</span>
+                <span class="songlistPlay"><span class="timestamp">1:55 <i class="fa-regular songItemPlay fa-2x fa-circle-play"></i></span></span>
+            </div>
+            
+        </div>
+        </div>
+        <div class="songBanner"></div>
+        </div>
+        <div class="Bottom">
+            <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+            <div class=""icons>
+                <!-- fontawesome icons ; fa-3x to increase icon size-->
+                <i class="fa-regular songItemPlay fa-3x fa-backward"></i>
+                <i class="fa-regular songItemPlay fa-3x fa-circle-play" id=""masterPlay></i>
+                <i class="fa-regular songItemPlay fa-3x fa-forward"></i>
+
+            </div>
+            <div class="songInfo">
+                <img src="playing.gif" width="72px" alt="" id="gif"> Gentle Ocean Waves
+            </div>
+        </div>
+    <script src="https://kit.fontawesome.com/c1c6ac197f.js" crossorigin="anonymous"></script>
+    <!-- above code from Font-Awesome to add icons-->
+    <script> src="script.js"</script>
+</body>
+</html>
